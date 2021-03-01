@@ -58,12 +58,9 @@ function Project() {
 										href={project.link}
 										rel="noopener noreferrer"
 										target="_blank"
-										className="text-purple-500 font-bold hover:underline hover:text-purple-400 text-xl"
+										className="text-gray-500 font-bold hover:underline hover:text-purple-400 text-xl"
 									>
-										View the project{" "}
-										<span role="img" aria-label="right pointer">
-											🤘🏻
-										</span>
+										View the project
 									</a>
 								</div>
 							</article>

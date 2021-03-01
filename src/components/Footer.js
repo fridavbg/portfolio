@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 
 function Footer() {
 	return (
-		<footer className="fixed bottom-0 w-full bg-purple-400">
+		<footer className="fixed bottom-0 w-full bg-green-400">
 			<div className="flex justify-center py-6 tracking-widest">
 				<SocialIcon
 					url="https://github.com/fridavbg"
