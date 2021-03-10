@@ -36,7 +36,7 @@ function Project() {
 					{projectData &&
 						projectData.map((project, index) => (
 							<article className=" rounded-lg shadow-xl bg-white p-16 m-6 w-full">
-								<h3 className="text-gray-800 text-3xl font-bold m-2 hover:text-purple-700">
+								<h3 className="text-gray-800 text-3xl font-bold m-2 hover:text-gray-700">
 									<a
 										href={project.link}
 										alt={project.title}
@@ -58,7 +58,7 @@ function Project() {
 										href={project.link}
 										rel="noopener noreferrer"
 										target="_blank"
-										className="text-gray-500 font-bold hover:underline hover:text-purple-400 text-xl"
+										className="text-gray-500 font-bold hover:underline hover:text-gray-400 text-xl"
 									>
 										View the project
 									</a>
