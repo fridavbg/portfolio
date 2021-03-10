@@ -32,17 +32,17 @@ function About() {
 			<img
 				src={bkg}
 				alt="waves crashing against a sandy beach"
-				className="absolute w-full"
+				className="absolute w-screen h-screen"
 			/>
 			<div className="p-10 lg:pt-10 container mx-auto relative">
 				<section className="bg-gray-400 rounded-lg shadow-2xl lg:flex p-10 md:flex p-5">
 					<img
 						src={urlFor(author.authorImage).url()}
-						className="rounded lg:w-48 h-60 mr-8 md:w-16 h-16"
+						className="rounded lg:w-48 h-60 mr-8 md:w-12 h-12"
 						alt={author.name}
 					/>
 					<div className="text-lg flex flex-col justify-center">
-						<h1 className="cursive text-6xl text-green-900 mb-4 md: mt-2">
+						<h1 className="cursive text-6xl text-green-600 mb-4 md: mt-2 float-right">
 							Hi, I'm <span className="text-green-100">{author.name}</span>
 						</h1>
 						<div className="prose lg:prose-xl text-white">
