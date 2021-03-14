@@ -62,14 +62,6 @@ function Project() {
 									>
 										View the project
 									</a>
-										<a
-										href={project.link}
-										rel="noopener noreferrer"
-										target="_blank"
-										className="text-gray-500 font-bold hover:underline hover:text-gray-400 text-xl"
-									>
-										GitHub Repo
-									</a>
 								</div>
 							</article>
 						))}
