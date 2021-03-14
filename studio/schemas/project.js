@@ -35,6 +35,10 @@ export default {
 			name: "link",
 			type: "url",
 		},
+			{
+			name: "github",
+			type: "url",
+		},
 		{
 			name: "tags",
 			type: "array",
