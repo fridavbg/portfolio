@@ -51,14 +51,15 @@ function Project() {
 										<strong className="font-bold">Uploaded on:</strong>:{" "}
 										{new Date(project.date).toLocaleString()}
 									</span>
-									<p className="m-6 text-lg text-gray-700 leading-relaxed">
+									<p className="m-6 text-lg text-gray-700 leading-relaxed hidden md:block">
 										{project.description}
 									</p>
+									<br/>
 									<a
 										href={project.link}
 										rel="noopener noreferrer"
 										target="_blank"
-										className="text-gray-500 font-bold hover:underline hover:text-gray-400 text-xl"
+										className="text-gray-500 font-bold hover:underline hover:text-gray-400 text-xl "
 									>
 										View the project
 									</a>
